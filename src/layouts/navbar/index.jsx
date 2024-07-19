@@ -13,6 +13,9 @@ const Layout = () => {
       <main className="flex-grow overflow-auto">
         <Outlet />
       </main>
+      <footer className="border-t bg-muted py-4 text-center text-sm text-muted-foreground">
+        © 2024 Our App. All rights reserved.
+      </footer>
     </div>
   );
 };
